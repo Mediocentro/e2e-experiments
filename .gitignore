@@ -1,0 +1,11 @@
+node_modules/
+.env
+test-output/
+playwright-report/
+blob-report/
+*.crt
+*.key
+*.pfx
+*.har
+*.har.zip
+

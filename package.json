@@ -1,0 +1,22 @@
+{
+  "name": "word-addin-playwright-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "e2e": "playwright test",
+    "e2e:smoke": "playwright test --grep @smoke",
+    "e2e:debug": "playwright test --grep @smoke --debug",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0",
+    "@types/node": "22.0.0",
+    "office-addin-debugging": "6.1.2",
+    "office-addin-dev-certs": "2.0.10",
+    "typescript": "6.0.3"
+  }
+}
